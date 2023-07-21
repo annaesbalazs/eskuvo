@@ -214,7 +214,7 @@ $(document).ready(function () {
 
         $('#alert-wrapper').html(alert_markup('info', '<strong>Egy pillanat türelmet kérünk!</strong> Elmentjük az adatokat.'));
 
-        $.post('https://script.google.com/macros/s/AKfycbyo0rEknln8LedEP3bkONsfOh776IR5lFidLhJFQ6jdvRiH4dKvHZmtoIybvnxpxYr2cA/exec', data)
+        $.post('https://script.google.com/macros/s/AKfycbwlMIU9J6QASAYtnQ06l7aGEjkdXwYxTzFSvIfjgQsL5tdtAslUuQRWPj31bnO4IypU/exec', data)
             .done(function (data) {
                 console.log(data);
                 if (data.result === "error") {
