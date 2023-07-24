@@ -184,7 +184,7 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Ram and Antara's Wedding",
+            title: "Anna & Balázs esküvő",
 
             // Event start date
             start: new Date('Sep 16, 2023 14:00'),
